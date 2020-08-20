@@ -7,7 +7,7 @@ button[0].addEventListener("click",function(){
 clear();
 var searchItem = input[0].value.replace(" ","+");
 //var url = "http://api.giphy.com/v1/gifs/search?q="+ searchItem +"&api_key=dc6zaTOxFJmzC";
-var url = "https://api.tenor.com/v1/search?q="+ "peach+goma" +searchItem + "&key=U8ILC6NP5H7A&limit=20";
+var url = "https://api.tenor.com/v1/search?q="+searchItem + "&key=U8ILC6NP5H7A&limit=20";
 var GiphyAJAXCall = new XMLHttpRequest();
 GiphyAJAXCall.open( 'GET', url );
 GiphyAJAXCall.send();
