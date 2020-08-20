@@ -1,0 +1,40 @@
+body {
+	background: #FFFF;
+	width: 80%;
+	max-width: 1024px;
+	margin: 0 auto;
+	font-size: 50px;
+	font: Verdana ;
+}
+
+.container-padding50 {
+	padding-top: 50px;
+}
+
+.container-textinput {
+	width: 80%;
+	display: inline;
+	padding: 20px;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+}
+
+.container-button {
+	width: 10%;
+	display: inline;
+	padding: 20px;
+	background-color: teal;
+	color: white;
+	font-size: 16px;
+	font-family: Helvetica, sans-serif;
+
+	border: 1px solid green;
+	border-radius: 5px;
+}
+
+.container-image {
+	width: 30%;
+	display: block;
+	float: left;
+	margin-right:3%;
+}
